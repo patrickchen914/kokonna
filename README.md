@@ -12,9 +12,9 @@
 
 ### 🚀 快捷添加 (Quick Setup)
 
-如果你已经将集成文件放入对应的目录，可以直接点击下方的按钮，在你的 Home Assistant 中一键唤醒并添加配置：
+如果你已经安装了 HACS，可以直接点击下方的按钮，一键将本仓库添加到你的 HACS 自定义存储库中并开始下载：
 
-[![🎯 一键添加集成](https://my.home-assistant.io/badge/config_flow_start.svg?domain=kokonna)](https://my.home-assistant.io/app/config_flow_start?domain=kokonna)
+[![🎯 一键添加集成](https://my.home-assistant.io/badge/hacs_repository.svg?repo_url=https://github.com/patrickchen914/kokonna)](https://my.home-assistant.io/app/hacs_repository?repo_url=https://github.com/patrickchen914/kokonna&category=integration)
 
 ---
 
@@ -65,9 +65,9 @@ This is a custom Home Assistant integration tailored for the **Kokonna Digital F
 
 ### 🚀 Quick Setup
 
-If you have already placed the integration files into the correct directory, you can click the button below to instantly launch the setup process in your Home Assistant instance:
+If you have HACS installed, you can click the button below to instantly add this repository as a custom repository and start downloading:
 
-[![🎯 Open your Home Assistant and connect a Kokonna device](https://my.home-assistant.io/badge/config_flow_start.svg?domain=kokonna)](https://my.home-assistant.io/app/config_flow_start?domain=kokonna)
+[![🎯 Add to HACS](https://my.home-assistant.io/badge/hacs_repository.svg?repo_url=https://github.com/patrickchen914/kokonna)](https://my.home-assistant.io/app/hacs_repository?repo_url=https://github.com/patrickchen914/kokonna&category=integration)
 
 ---
 
