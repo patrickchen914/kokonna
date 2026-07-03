@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "添加 Kokonna 设备",
+        "description": "请输入您的 API Key。您可以从 Kokonna 设备获取。",
+        "data": {
+          "token": "API Key",
+          "name": "设备名称（可选）"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "认证失败，请检查 API Key 是否正确。"
+    },
+    "abort": {
+      "already_configured": "此设备已配置。"
+    }
+  },
+  "services": {
+    "set_image": {
+      "name": "切换图片",
+      "description": "切换至指定图片。",
+      "fields": {
+        "device_id": {
+          "name": "设备 ID",
+          "description": "Kokonna 设备的唯一 ID。"
+        },
+        "image_id": {
+          "name": "图片 ID",
+          "description": "要显示的图片 ID。"
+        }
+      }
+    }
+  }
+}

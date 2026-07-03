@@ -1,0 +1,18 @@
+set_image:
+  name: Set Image
+  description: Switch to a specific image by ID.
+  fields:
+    device_id:
+      name: Device ID
+      description: The unique ID of the Kokonna device.
+      required: true
+      selector:
+        text:
+    image_id:
+      name: Image ID
+      description: The ID of the image to display.
+      required: true
+      selector:
+        number:
+          min: 1
+          max: 999999

@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add Kokonna Device",
+        "description": "Enter your API Key. You can obtain it from your Kokonna device.",
+        "data": {
+          "token": "API Key",
+          "name": "Device Name (optional)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Authentication failed, please check your API Key."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  },
+  "services": {
+    "set_image": {
+      "name": "Set Image",
+      "description": "Switch to a specific image by ID.",
+      "fields": {
+        "device_id": {
+          "name": "Device ID",
+          "description": "The unique ID of the Kokonna device."
+        },
+        "image_id": {
+          "name": "Image ID",
+          "description": "The ID of the image to display."
+        }
+      }
+    }
+  }
+}

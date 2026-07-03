@@ -1,0 +1,12 @@
+{
+  "domain": "kokonna",
+  "name": "Kokonna Digital Frame",
+  "version": "0.0.1",
+  "documentation": "https://github.com/patrickchen914/kokonna",
+  "requirements": ["aiohttp>=3.8.0"],
+  "dependencies": [],
+  "codeowners": ["@patrickchen914"],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "loggers": ["custom_components.kokonna"]
+}
