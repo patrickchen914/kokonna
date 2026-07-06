@@ -12,9 +12,9 @@
 
 ### 🚀 快捷添加 (Quick Setup)
 
-如果你已经安装了 HACS，可以直接点击下方的按钮，一键将本仓库添加到你的 HACS 自定义存储库中并开始下载：
+如果你已经安装了 HACS，可以直接点击下方的官方蓝色按钮，一键将本仓库添加到你的 HACS 自定义存储库中并开始下载：
 
-[![🎯 一键添加集成](https://my.home-assistant.io/badge/hacs_repository.svg?repo_url=https://github.com/patrickchen914/kokonna)](https://my.home-assistant.io/app/hacs_repository?repo_url=https://github.com/patrickchen914/kokonna&category=integration)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=patrickchen914&repository=kokonna&category=integration)
 
 ---
 
@@ -26,7 +26,7 @@
 
 ### 📦 安装方法
 
-目前本集成支持**手动安装**：
+目前本集成支持**手动安装**与 **HACS 添加**：
 
 1. 下载本仓库的最新代码压缩包并解压。
 2. 将 `custom_components/kokonna` 文件夹完整复制到你 Home Assistant 配置目录下的 `custom_components/` 文件夹中。
@@ -41,11 +41,11 @@
 2. 拉到页面最底部，即可找到 **API Key**，点击右侧的复制图标。
 3. 复制后，在 Home Assistant 的引导界面中填入即可。
 
-![API Key Location](IMG_4349.jpg)
+![API Key Location](API%20Key%20Demo.jpg)
 
 #### 🗺️ 配置步骤：
-1. 重启 HA 后，点击上方的 [🎯 一键添加集成](https://my.home-assistant.io/app/config_flow_start?domain=kokonna) 按钮。
-2. 或者前往 HA 的 **设置 -> 设备与服务 -> 添加集成**，搜索并选择 **Kokonna Digital Frame**。
+1. 重启 HA 后，前往 HA 的 **设置 -> 设备与服务 -> 添加集成**。
+2. 搜索并选择 **Kokonna Digital Frame**。
 3. 根据界面提示输入设备的 IP 地址或认证信息（API Key），点击提交即可自动完成设备发现。
 
 ### 🛠️ 支持的实体类型
@@ -65,9 +65,9 @@ This is a custom Home Assistant integration tailored for the **Kokonna Digital F
 
 ### 🚀 Quick Setup
 
-If you have HACS installed, you can click the button below to instantly add this repository as a custom repository and start downloading:
+If you have HACS installed, you can click the official blue button below to instantly add this repository as a custom repository and start downloading:
 
-[![🎯 Add to HACS](https://my.home-assistant.io/badge/hacs_repository.svg?repo_url=https://github.com/patrickchen914/kokonna)](https://my.home-assistant.io/app/hacs_repository?repo_url=https://github.com/patrickchen914/kokonna&category=integration)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=patrickchen914&repository=kokonna&category=integration)
 
 ---
 
@@ -79,7 +79,7 @@ If you have HACS installed, you can click the button below to instantly add this
 
 ### 📦 Installation
 
-This integration can be installed **manually**:
+This integration can be installed **manually** or via **HACS**:
 
 1. Download the latest release of this repository.
 2. Copy the `custom_components/kokonna` directory into your Home Assistant's `custom_components/` directory.
@@ -94,11 +94,11 @@ This integration supports standard **Config Flow (UI Configuration)**. You will 
 2. Scroll to the bottom of the page to find the **API Key**, then click the copy icon.
 3. Paste it into the Home Assistant configuration prompt.
 
-![API Key Location](IMG_4349.jpg)
+![API Key Location](API%20Key%20Demo.jpg)
 
 #### 🗺️ Setup Steps:
-1. After restarting HA, click the [🎯 Quick Setup](https://my.home-assistant.io/app/config_flow_start?domain=kokonna) button above.
-2. Alternatively, go to **Settings -> Devices & Services -> Add Integration**, search for **Kokonna Digital Frame**.
+1. After restarting HA, go to **Settings -> Devices & Services -> Add Integration**.
+2. Search for **Kokonna Digital Frame**.
 3. Enter your device's IP address and API Key as prompted to complete the setup.
 
 ### 🛠️ Supported Entities

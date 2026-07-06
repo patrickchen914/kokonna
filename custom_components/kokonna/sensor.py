@@ -13,6 +13,7 @@ from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
 from homeassistant.helpers.entity_registry import EntityCategory
+from homeassistant.util import dt as dt_util
 
 from .const import DOMAIN
 from . import KokonnaDataUpdateCoordinator
@@ -43,6 +44,16 @@ ENTITY_DETAILS: list[SensorDetails] = [
             icon="mdi:rename-box",
         ),
         state_value_func=lambda d: d.get("nickname"),
+    ),
+    SensorDetails(
+        description=SensorEntityDescription(
+            key="lastHeartbeat",
+            name="Last Heartbeat",
+            icon="mdi:heart-pulse",
+            device_class=SensorDeviceClass.TIMESTAMP,
+            entity_category=EntityCategory.DIAGNOSTIC,
+        ),
+        state_value_func=lambda d: dt_util.parse_datetime(d.get("lastHeartbeat")) if d.get("lastHeartbeat") else None,
     ),
     SensorDetails(
         description=SensorEntityDescription(
