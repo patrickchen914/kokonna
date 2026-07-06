@@ -1,5 +1,3 @@
 {
-  "name": "Kokonna Digital Frame",
-  "type": "integration",
-  "manifest": "custom_components/kokonna/manifest.json"
+  "name": "Kokonna Digital Frame"
 }
